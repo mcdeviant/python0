@@ -1,9 +1,9 @@
 import pprint
-message =  'I like to ride my bicycle I like to ride my biiiiike'
-count = {}
+MESSAGE =  'I like to ride my bicycle I like to ride my biiiiike'
+COUNT = {}
 
-for character in message.upper():
-    count.setdefault(character, 0)
-    count[character] = count[character] + 1
+for CHARACTER in message.upper():
+    COUNT.setdefault(CHARACTER, 0)
+    COUNT[CHARACTER] = COUNT[CHARACTER] + 1
 
-pprint.pprint(count)
+pprint.pprint(COUNT)
